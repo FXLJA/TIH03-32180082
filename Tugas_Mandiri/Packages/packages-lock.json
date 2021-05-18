@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.ptc.vuforia.engine": {
+      "version": "file:C:/Users/Jason Alexander/Desktop/Kuliah/Semester 6 (6PTI1)/Pemrograman Augmented Reality/Marker Data/Vuforia 9.8.8",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      }
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
