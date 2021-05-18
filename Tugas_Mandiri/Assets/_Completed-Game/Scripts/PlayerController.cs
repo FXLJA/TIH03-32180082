@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour {
 	// Create private references to the rigidbody component on the player, and the count of pick up objects picked up so far
 	private Rigidbody rb;
 	private int count;
+	private Vector2 touchStart;
+	private Vector2 touchEnd;
 
 	// At the start of the game..
 	void Start ()
@@ -32,19 +34,24 @@ public class PlayerController : MonoBehaviour {
 		winText.text = "";
 	}
 
-	// Each physics step..
-	void FixedUpdate ()
+	void Update()
 	{
-		// Set some local float variables equal to the value of our Horizontal and Vertical Inputs
-		float moveHorizontal = Input.GetAxis ("Horizontal");
-		float moveVertical = Input.GetAxis ("Vertical");
+		//Swipe start
+		if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Began)
+		{
+			touchStart = Input.GetTouch(0).position;
+		}
 
-		// Create a Vector3 variable, and assign X and Z to feature our horizontal and vertical float variables above
-		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
-
-		// Add a physical force to our Player rigidbody using our 'movement' Vector3 above, 
-		// multiplying it by 'speed' - our public player speed that appears in the inspector
-		rb.AddForce (movement * speed);
+		//Swipe end
+		if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Ended)
+		{
+			touchEnd = Input.GetTouch(0).position;
+			float cameraFacing = Camera.main.transform.eulerAngles.y;
+			Vector2 swipeVector = touchEnd - touchStart;
+			Vector3 inputVector = new Vector3(swipeVector.x, 0.0f, swipeVector.y);
+			Vector3 movement = Quaternion.Euler(0.0f, cameraFacing, 0.0f) * Vector3.Normalize(inputVector);
+			rb.velocity = movement;
+		}
 	}
 
 	// When this game object intersects a collider with 'is trigger' checked, 
