@@ -35,3 +35,8 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Tugas_Mandiri/Assets/Plugins/iOS.meta
+Tugas_Mandiri/Assets/Plugins/iOS/XROverride.mm.meta
+Tugas_Mandiri/Assets/Plugins/iOS/XROverride.mm
+Tugas_Mandiri/Assets/Plugins/iOS/libXRPlugin.a.meta
+Tugas_Mandiri/Assets/Plugins/iOS/libXRPlugin.a
