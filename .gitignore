@@ -41,3 +41,6 @@ Tugas_Mandiri/Assets/Plugins/iOS/XROverride.mm
 Tugas_Mandiri/Assets/Plugins/iOS/libXRPlugin.a.meta
 Tugas_Mandiri/Assets/Plugins/iOS/libXRPlugin.a
 *.log
+*.meta
+*.a
+*.mm
