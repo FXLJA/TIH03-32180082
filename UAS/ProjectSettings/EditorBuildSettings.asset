@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 5cb1bc52baf0dd249a6c7db98c508705
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: 1d9e34ed55ba0e84cb24abce3cf058ee
+  - enabled: 1
+    path: Assets/Scenes/Scan.unity
+    guid: a6cf4dfb25bcb5f4c85a95da33ccd923
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: 52659857b737c2a4aa2f14207161671e
+  - enabled: 1
+    path: Assets/Scenes/IdentifikasiAtom.unity
+    guid: 9468e9fe28f55a14294be511d696641a
+  - enabled: 1
+    path: Assets/Scenes/SpesifikasiAtom.unity
+    guid: 344577074dba1e346963890f5734c8de
+  - enabled: 1
+    path: Assets/Scenes/KegunaanAtom.unity
+    guid: 4418f6329796ebe459639f7ad0340fa8
   m_configObjects: {}
