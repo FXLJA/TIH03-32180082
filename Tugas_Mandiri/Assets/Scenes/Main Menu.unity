@@ -1190,8 +1190,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 114, y: -55}
-  m_SizeDelta: {x: 571.02563, y: 391.9324}
+  m_AnchoredPosition: {x: -13, y: 326}
+  m_SizeDelta: {x: 515.3789, y: 300.2788}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1741599348
 MonoBehaviour:
@@ -1412,8 +1412,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -354, y: 80}
-  m_SizeDelta: {x: 200, y: 120}
+  m_AnchoredPosition: {x: 4, y: -10}
+  m_SizeDelta: {x: 280.555, y: 145.0865}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5538507161992847111
 GameObject:
@@ -1555,8 +1555,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -77.25}
-  m_SizeDelta: {x: -0.0040283203, y: 154.30609}
+  m_AnchoredPosition: {x: -0.48516846, y: -102.089966}
+  m_SizeDelta: {x: -0.004, y: 164.1262}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5595939541708228282
 MonoBehaviour:
@@ -1588,8 +1588,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 1
     m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'TUGAS MANDIRI
 
@@ -1705,8 +1705,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -357, y: -80}
-  m_SizeDelta: {x: 200, y: 120}
+  m_AnchoredPosition: {x: -0.20829582, y: -203.44864}
+  m_SizeDelta: {x: 280.555, y: 145.0865}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7159080804430211079
 GameObject:
@@ -1929,8 +1929,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -357, y: -240}
-  m_SizeDelta: {x: 200, y: 120}
+  m_AnchoredPosition: {x: -0.20829582, y: -396.89725}
+  m_SizeDelta: {x: 280.555, y: 145.0865}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8819401695279469043
 MonoBehaviour:
